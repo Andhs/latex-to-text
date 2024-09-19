@@ -51,7 +51,7 @@ else:
 
 
 # Read file object to string
-fic_tex = open(tex_file, 'r', encoding='utf-8')
+fic_tex = open(tex_file, 'r', encoding='Windows-1251') #encoding='utf-8')
 text_all = fic_tex.read()
 fic_tex.close()
 
